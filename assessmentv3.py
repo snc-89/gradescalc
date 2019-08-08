@@ -10,7 +10,7 @@ class Assessment:
 
     
 class Unit:
-    def __init__(self, finalExam, ass1, ass2, ass3, ass4, ass5):
+    def __init__(self, finalExam, ass1, ass2=None, ass3=None, ass4=None, ass5=None):
         self.finalExam = finalExam
         self.assessments = []
         self.assessments.append(ass1)
